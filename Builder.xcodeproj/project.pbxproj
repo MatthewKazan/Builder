@@ -17,6 +17,11 @@
 		225E05DA245B579A0086CB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225E05D8245B579A0086CB4D /* LaunchScreen.storyboard */; };
 		225E05E5245B579A0086CB4D /* BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225E05E4245B579A0086CB4D /* BuilderTests.swift */; };
 		225E05F0245B579A0086CB4D /* BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225E05EF245B579A0086CB4D /* BuilderUITests.swift */; };
+		225E05FE245B82270086CB4D /* brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225E05FD245B82270086CB4D /* brick.swift */; };
+		227CDDCF2793EAB1002EED48 /* IMG_0108.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 227CDDCE2793EAB0002EED48 /* IMG_0108.PNG */; };
+		22F64618245C03CA004FDA23 /* music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F64617245C03CA004FDA23 /* music.swift */; };
+		22F64620245C0C3D004FDA23 /* clang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22F6461F245C0C3D004FDA23 /* clang.mp3 */; };
+		22F64622245CAF68004FDA23 /* weld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F64621245CAF68004FDA23 /* weld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		225E05EB245B579A0086CB4D /* BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225E05EF245B579A0086CB4D /* BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderUITests.swift; sourceTree = "<group>"; };
 		225E05F1245B579A0086CB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225E05FD245B82270086CB4D /* brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brick.swift; sourceTree = "<group>"; };
+		227CDDCD2793E946002EED48 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		227CDDCE2793EAB0002EED48 /* IMG_0108.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0108.PNG; sourceTree = "<group>"; };
+		22F64617245C03CA004FDA23 /* music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music.swift; sourceTree = "<group>"; };
+		22F6461F245C0C3D004FDA23 /* clang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clang.mp3; sourceTree = "<group>"; };
+		22F64621245CAF68004FDA23 /* weld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,9 @@
 		225E05BD245B57980086CB4D = {
 			isa = PBXGroup;
 			children = (
+				227CDDCE2793EAB0002EED48 /* IMG_0108.PNG */,
+				227CDDCD2793E946002EED48 /* README.md */,
+				22F6461F245C0C3D004FDA23 /* clang.mp3 */,
 				225E05C8245B57980086CB4D /* Builder */,
 				225E05E3245B579A0086CB4D /* BuilderTests */,
 				225E05EE245B579A0086CB4D /* BuilderUITests */,
@@ -107,9 +121,12 @@
 				225E05CB245B57990086CB4D /* GameScene.sks */,
 				225E05CD245B57990086CB4D /* Actions.sks */,
 				225E05CF245B57990086CB4D /* GameScene.swift */,
+				22F64621245CAF68004FDA23 /* weld.swift */,
+				225E05FD245B82270086CB4D /* brick.swift */,
 				225E05D1245B57990086CB4D /* GameViewController.swift */,
 				225E05D3245B57990086CB4D /* Main.storyboard */,
 				225E05D6245B579A0086CB4D /* Assets.xcassets */,
+				22F64617245C03CA004FDA23 /* music.swift */,
 				225E05D8245B579A0086CB4D /* LaunchScreen.storyboard */,
 				225E05DB245B579A0086CB4D /* Info.plist */,
 			);
@@ -238,10 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F64620245C0C3D004FDA23 /* clang.mp3 in Resources */,
 				225E05D5245B57990086CB4D /* Main.storyboard in Resources */,
 				225E05CC245B57990086CB4D /* GameScene.sks in Resources */,
 				225E05D7245B579A0086CB4D /* Assets.xcassets in Resources */,
 				225E05DA245B579A0086CB4D /* LaunchScreen.storyboard in Resources */,
+				227CDDCF2793EAB1002EED48 /* IMG_0108.PNG in Resources */,
 				225E05CE245B57990086CB4D /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				225E05D0245B57990086CB4D /* GameScene.swift in Sources */,
+				22F64622245CAF68004FDA23 /* weld.swift in Sources */,
+				22F64618245C03CA004FDA23 /* music.swift in Sources */,
+				225E05FE245B82270086CB4D /* brick.swift in Sources */,
 				225E05D2245B57990086CB4D /* GameViewController.swift in Sources */,
 				225E05CA245B57990086CB4D /* AppDelegate.swift in Sources */,
 			);
@@ -442,15 +464,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 469K444LPM;
+				DEVELOPMENT_TEAM = J7UTAJ2A4G;
 				INFOPLIST_FILE = Builder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dumb-INC..Builder";
+				PRODUCT_BUNDLE_IDENTIFIER = "dumb-INC.Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,15 +485,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 469K444LPM;
+				DEVELOPMENT_TEAM = J7UTAJ2A4G;
 				INFOPLIST_FILE = Builder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dumb-INC..Builder";
+				PRODUCT_BUNDLE_IDENTIFIER = "dumb-INC.Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

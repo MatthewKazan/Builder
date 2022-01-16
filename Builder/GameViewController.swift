@@ -9,11 +9,18 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
 class GameViewController: UIViewController {
 
+    var player: AVAudioPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.ambient)
+        try? AVAudioSession.sharedInstance().setActive(true)
+        //MusicHelper.sharedHelper.playSound(sound: "stolenMusic")
+
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
